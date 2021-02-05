@@ -78,6 +78,10 @@ New categorical variables were derived flagging subjects with multiple health is
 ![GitHub Logo](https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/interactions.JPG)
 
 
+## Logistic Regression Model
+
+* Logistic Regression Model to understand the relation between target variable and body weight as the predictor variable,
+
 
 
 
