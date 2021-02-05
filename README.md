@@ -15,7 +15,7 @@ Estimate the price of treatment given the clinical factors at the time of admiss
 
 ## CONCEPTUAL-MODEL 
 
-![GitHub Logo](https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/Conceptual_Model.JPG)
+<img src="https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/Conceptual_Model.JPG" width="400" height="400">
 
 ## Data Preparation
 
@@ -40,13 +40,14 @@ Estimate the price of treatment given the clinical factors at the time of admiss
 
 The below graphs illustrates on the correlation between target variable and Hospital Admission - both at Intensive Care Unit and Normal care unit
 
-![GitHub Logo](https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/ICU_high_Cor.JPG)
+<img src="https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/ICU_high_Cor.JPG" width="400" height="400">
 
 * Considered ln(Total Cost) instead of Total Cost to Hospital(INR). The total cost value variable has a right skew. Taking the log would make the distribution of our transformed variable appear more symmetric.
 
 From the below graphs we see that the data is normalized by taking the logarthmic value of the variable,
 
-![GitHub Logo](https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/Skew_target_var.JPG)
+<img src="https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/Skew_target_var.JPG" width="400" height="400">
+
 
 ### Handling NULL Values
 
@@ -75,7 +76,7 @@ ANOVA test was done to test for variables with more than two levels and the foll
 
 New categorical variables were derived flagging subjects with multiple health issues. The following are the conditions that were hypothesized based on domain expertise, and T-test was performed
 
-![GitHub Logo](https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/interactions.JPG)
+<img src="https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/interactions.JPG" width="400" height="400">
 
 
 ## Model
@@ -84,16 +85,11 @@ Click here for the [code](https://github.com/skotak2/Package-Pricing-At-Mission-
 
 * Logistic Regression Model to understand the relation between target variable and body weight as the predictor variable, (this use case was based on the domain expert's requirement)
 
-![GitHub Logo](https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/body_weight.JPG)
-
+<img src="https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/body_weight.JPG" width="800" height="400">
 
 * Logistic Regression Model to understand the relation between target variable and feature engineered variables,
 
-<img src="https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/model_all_vars.JPG" width="400" height="400"><img src="https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/intrepretation.JPG" width="400" height="400">
-
-The intrepretation of the above model is as follows,
-
-<img src="https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/intrepretation.JPG" width="400" height="400">
+<img src="https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/intrepretation.JPG" width="400" height="400"><img src="https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/model_all_vars.JPG" width="400" height="400">
 
 ## References
 
