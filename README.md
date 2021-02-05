@@ -15,16 +15,16 @@ Estimate the price of treatment given the clinical factors at the time of admiss
 
 ## CONCEPTUAL MODEL 
 
-![GitHub Logo] (https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/Conceptual_Model.JPG)
+![GitHub Logo](https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/Conceptual_Model.JPG)
 
 ## Data Preparation
 
 ### Removed the following columns with insufficient observations as "1"
 
-• CAD SVD
-• CAD VSD
-• Other general
-• Confused state
+* CAD SVD
+* CAD VSD
+* Other general
+* Confused state
 
 ### Numerical values were bucketed and One hot encoded for the following variables,
 
