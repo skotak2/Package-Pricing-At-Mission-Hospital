@@ -80,12 +80,27 @@ New categorical variables were derived flagging subjects with multiple health is
 
 ## Logistic Regression Model
 
-* Logistic Regression Model to understand the relation between target variable and body weight as the predictor variable,
+* Logistic Regression Model to understand the relation between target variable and body weight as the predictor variable, (this use case was based on the domain expert's requirement)
+
+![GitHub Logo](https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/body_weight.JPG)
 
 
+* Logistic Regression Model to understand the relation between target variable and feature engineered variables,
+
+![GitHub Logo](https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/model_all_vars.JPG)
+
+The intrepretation of the above model is as follows,
+
+![GitHub Logo](https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/intrepretation.JPG)
 
 
+## References
 
+* http ://www.bloodpressureuk.org/BloodPressureandyou/ Bloodpressurechart
+
+* https ://www.mayoclinic.org/tests procedures/blood urea nitrogen/about/ pac 20384821
+
+* https ://www.quora.com/Why do we log variables in regression model
 
 
 
