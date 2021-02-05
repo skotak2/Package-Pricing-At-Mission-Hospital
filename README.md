@@ -89,7 +89,7 @@ Click here for the [code](https://github.com/skotak2/Package-Pricing-At-Mission-
 
 * Logistic Regression Model to understand the relation between target variable and feature engineered variables,
 
-<img src="https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/model_all_vars.JPG" width="200" height="400">
+<img src="https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/model_all_vars.JPG" width="400" height="400"><img src="https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/intrepretation.JPG" width="400" height="400">
 
 The intrepretation of the above model is as follows,
 
