@@ -57,7 +57,7 @@ From the below graphs we see that the data is normalized by taking the logarthmi
 
 New categorical variables were derived flagging subjects with multiple health issues. The following are the conditions that were hypothesized based on domain expertise,
 
-![GitHub Logo](https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/interactions.JPG)
+![GitHub Logo](https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/interaction.JPG)
 
 ## Statistical Tests
 
