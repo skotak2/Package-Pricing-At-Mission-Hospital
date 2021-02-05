@@ -3,17 +3,17 @@ Built Predictive Model to estimate the price of treatment given the clinical fac
 
 ### TABLE OF CONTENTS
 * [Objective](#objective)
-* [Conceptual Model](#conceptual model)
-* [Variable Selection](#variable selection)
-* [Data Exploration](#data exploration)
-* [Logistic Regression Model](#logistic regression model)
+* [Conceptual-Model](#conceptual model)
+* [Data-Preparation](#data preparation)
+* [Statistical-Tests](#Statistical-Tests)
+* [Model](#model)
 * [References](#references)
 
 ## OBJECTIVE
 
 Estimate the price of treatment given the clinical factors at the time of admission
 
-## CONCEPTUAL MODEL 
+## CONCEPTUAL-MODEL 
 
 ![GitHub Logo](https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/Conceptual_Model.JPG)
 
@@ -53,7 +53,7 @@ From the below graphs we see that the data is normalized by taking the logarthmi
 * BP Ranges Imputed 'Normal' BP range for null values which were Juvenile Patients
 * Urea Imputed 'Normal' Urea level for 11 null values. Assumption: Urea measurement is not critical for that patient.
 
-## Statistical Tests
+## Statistical-Tests
 
 T-Test and Anova was performed on specific variable to understand their effect on target variable. Code is available [here](https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Code/Ttest_Anova.R)
 
@@ -78,7 +78,7 @@ New categorical variables were derived flagging subjects with multiple health is
 ![GitHub Logo](https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/interactions.JPG)
 
 
-## Logistic Regression Model
+## Model
 
 Click here for the [code](https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Code/Data_prep_modelling.R)
 
