@@ -3,11 +3,11 @@ Built Predictive Model to estimate the price of treatment given the clinical fac
 
 ### TABLE OF CONTENTS
 * [Objective](#objective)
-* [Conceptual Model](#conceptual_model)
-* [Variable Selection](#variable_selection)
-* [Data Exploration](#data_exploration)
-* [Logistic Regression Model](#logistic_regression_model)
-* [Results](#results)
+* [Conceptual Model](#conceptual model)
+* [Variable Selection](#variable selection)
+* [Data Exploration](#data exploration)
+* [Logistic Regression Model](#logistic regression model)
+* [References](#references)
 
 ## OBJECTIVE
 
