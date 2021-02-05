@@ -46,7 +46,7 @@ The below graphs illustrates on the correlation between target variable and Hosp
 
 From the below graphs we see that the data is normalized by taking the logarthmic value of the variable,
 
-<img src="https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/Skew_target_var.JPG" width="400" height="400">
+<img src="https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/Skew_target_var.JPG" width="800" height="400">
 
 
 ### Handling NULL Values
