@@ -37,9 +37,10 @@ Estimate the price of treatment given the clinical factors at the time of admiss
 ### Removing Variables based on avalability of data
 
 * Removed Stay at hospital ICU and Ward.It is a reflective construct variable. Cannot predict length of stay accurately at the time of admission to compute total treatment cost.
-
+![GitHub Logo](https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/ICU_high_Cor.JPG)
 
 * Considered ln(Total Cost) instead of Total Cost to Hospital(INR). Our variable has a right skew. Taking the log would make the distribution of our transformed variable appear more symmetric.
+![GitHub Logo](https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/Skew_target_var.JPG)
 
 ### Handling NULL Values
 
