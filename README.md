@@ -3,8 +3,8 @@ Built Predictive Model to estimate the price of treatment given the clinical fac
 
 ### TABLE OF CONTENTS
 * [Objective](#objective)
-* [Conceptual-Model](#conceptual model)
-* [Data-Preparation](#data preparation)
+* [Conceptual-Model](#conceptual-model)
+* [Data-Preparation](#data-preparation)
 * [Statistical-Tests](#Statistical-Tests)
 * [Model](#model)
 * [References](#references)
