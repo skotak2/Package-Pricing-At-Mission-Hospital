@@ -15,7 +15,7 @@ Estimate the price of treatment given the clinical factors at the time of admiss
 
 ## CONCEPTUAL-MODEL 
 
-<img src="https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/Conceptual_Model.JPG" width="400" height="400">
+<img src="https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/Conceptual_Model.JPG" width="800" height="400">
 
 ## Data Preparation
 
@@ -40,7 +40,7 @@ Estimate the price of treatment given the clinical factors at the time of admiss
 
 The below graphs illustrates on the correlation between target variable and Hospital Admission - both at Intensive Care Unit and Normal care unit
 
-<img src="https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/ICU_high_Cor.JPG" width="400" height="400">
+<img src="https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/ICU_high_Cor.JPG" width="800" height="400">
 
 * Considered ln(Total Cost) instead of Total Cost to Hospital(INR). The total cost value variable has a right skew. Taking the log would make the distribution of our transformed variable appear more symmetric.
 
