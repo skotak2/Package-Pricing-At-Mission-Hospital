@@ -36,15 +36,15 @@ Estimate the price of treatment given the clinical factors at the time of admiss
 
 ### Removing Variables based on avalability of data
 
-* Removed Stay at hospital ICU and Ward.It is a reflective construct variable. Cannot predict length of stay accurately at the time of admission to compute total treatment cost.
+* Removed the variable - "Stay at hospital ICU and Ward".It is a reflective construct variable. Its not possible to predict the length of stay, accurately at the time of admission to compute total treatment cost.
 
-The below graphs illustrate on the correlation between target variable and Hospital Admission - both at Intensive Care Unit and Normal care unit
+The below graphs illustrates on the correlation between target variable and Hospital Admission - both at Intensive Care Unit and Normal care unit
 
 ![GitHub Logo](https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/ICU_high_Cor.JPG)
 
-* Considered ln(Total Cost) instead of Total Cost to Hospital(INR). Our variable has a right skew. Taking the log would make the distribution of our transformed variable appear more symmetric.
+* Considered ln(Total Cost) instead of Total Cost to Hospital(INR). The total cost value variable has a right skew. Taking the log would make the distribution of our transformed variable appear more symmetric.
 
-From the below graphs we see that the data is normalized when we take the logarthmic value of the variable
+From the below graphs we see that the data is normalized by taking the logarthmic value of the variable,
 
 ![GitHub Logo](https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/Skew_target_var.JPG)
 
@@ -52,6 +52,12 @@ From the below graphs we see that the data is normalized when we take the logart
 
 * BP Ranges Imputed 'Normal' BP range for null values which were Juvenile Patients
 * Urea Imputed 'Normal' Urea level for 11 null values. Assumption: Urea measurement is not critical for that patient.
+
+### Variable Interactions
+
+New categorical variables were derived flagging subjects with multiple health issues. The following are the conditions that were hypothesized based on domain expertise,
+
+
 
 ## Statistical Tests
 
@@ -71,6 +77,7 @@ ANOVA test was done to test for variables with more than two levels and the foll
 * Age 
 * BMI
 * BP Ranges
+
 
 
 
