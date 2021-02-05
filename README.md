@@ -53,12 +53,6 @@ From the below graphs we see that the data is normalized by taking the logarthmi
 * BP Ranges Imputed 'Normal' BP range for null values which were Juvenile Patients
 * Urea Imputed 'Normal' Urea level for 11 null values. Assumption: Urea measurement is not critical for that patient.
 
-### Variable Interactions
-
-New categorical variables were derived flagging subjects with multiple health issues. The following are the conditions that were hypothesized based on domain expertise,
-
-![GitHub Logo](https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/interactions.JPG)
-
 ## Statistical Tests
 
 T-Test and Anova was performed on specific variable to understand their effect on target variable. Code is available [here](https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Code/Ttest_Anova.R)
@@ -79,6 +73,9 @@ ANOVA test was done to test for variables with more than two levels and the foll
 * BP Ranges
 
 
+New categorical variables were derived flagging subjects with multiple health issues. The following are the conditions that were hypothesized based on domain expertise, and T-test was performed
+
+![GitHub Logo](https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/interactions.JPG)
 
 
 
