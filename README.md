@@ -93,7 +93,7 @@ Click here for the [code](https://github.com/skotak2/Package-Pricing-At-Mission-
 
 The intrepretation of the above model is as follows,
 
-![GitHub Logo](https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/intrepretation.JPG =250*250)
+![GitHub Logo](https://github.com/skotak2/Package-Pricing-At-Mission-Hospital/blob/main/Images/intrepretation.JPG | width = 100)
 
 
 ## References
